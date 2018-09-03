@@ -4,18 +4,18 @@ import { Nav, NavItem, NavLink } from 'reactstrap';
 
 const Header = (props) => (
   <header>
-    <nav>
+    <nav pills>
       <NavItem>
-        <NavLink exact to="/" activeClassName="active" tag={RRNavLink}>Home></NavLink>
+        <NavLink exact to="/" activeClassName="active" tag={RRNavLink}>Home</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink exact to="/" activeClassName="active" tag={RRNavLink}>Home></NavLink>
+        <NavLink exact to="/about" activeClassName="active" tag={RRNavLink}>About</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink exact to="/" activeClassName="active" tag={RRNavLink}>Home></NavLink>
+        <NavLink exact to="/contact" activeClassName="active" tag={RRNavLink}>Contact</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink exact to="/" activeClassName="active" tag={RRNavLink}>Home></NavLink>
+        <NavLink exact to="/projects" activeClassName="active" tag={RRNavLink}>Projects</NavLink>
       </NavItem>
     </nav>
   </header>
