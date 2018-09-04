@@ -10,10 +10,10 @@ const Footer = (props) => (
     <div class="container">
       <p class="text-center text-footer">
         <Fragment>
-          <span className="fa-icons fa-2x"><FontAwesomeIcon icon={faFacebookSquare} /></span>
-          <span className="fa-icons fa-2x"><FontAwesomeIcon icon={faTwitterSquare} /></span>
-          <span className="fa-icons fa-2x"><FontAwesomeIcon icon={faInstagram} /></span>
-          <span className="fa-icons fa-2x"><FontAwesomeIcon icon={faGithubSquare} /></span>
+          <span className="fa-icons fa-2x ml-2 mr-2"><FontAwesomeIcon icon={faFacebookSquare} /></span>
+          <span className="fa-icons fa-2x ml-2 mr-2"><FontAwesomeIcon icon={faTwitterSquare} /></span>
+          <span className="fa-icons fa-2x ml-2 mr-2"><FontAwesomeIcon icon={faInstagram} /></span>
+          <span className="fa-icons fa-2x ml-2 mr-2"><FontAwesomeIcon icon={faGithubSquare} /></span>
         </Fragment>
       </p>
     </div>
