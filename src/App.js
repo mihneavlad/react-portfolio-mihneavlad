@@ -14,7 +14,7 @@ import Projects from './views/Projects';
 class App extends Component {
   render() {
     return  (
-        <BrowserRouter>
+        <BrowserRouter className="mainc">
           <Fragment>
             <Header/>
             <main>
