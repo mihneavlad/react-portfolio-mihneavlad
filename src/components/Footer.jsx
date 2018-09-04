@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import { faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
@@ -8,14 +8,15 @@ import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 const Footer = (props) => (
   <footer class="footer">
     <div class="container">
-      <p class="text-center text-footer">
-        <Fragment>
+      <div class="text-center text-footer">
+        <div className="fa-container">
           <span className="fa-icons fa-2x ml-2 mr-2"><FontAwesomeIcon icon={faFacebookSquare} /></span>
           <span className="fa-icons fa-2x ml-2 mr-2"><FontAwesomeIcon icon={faTwitterSquare} /></span>
           <span className="fa-icons fa-2x ml-2 mr-2"><FontAwesomeIcon icon={faInstagram} /></span>
           <span className="fa-icons fa-2x ml-2 mr-2"><FontAwesomeIcon icon={faGithubSquare} /></span>
-        </Fragment>
-      </p>
+        </div>
+        <h4 class="text-center text-footer copyright">Copyright ©2018 All rights reserved</h4>
+      </div>
     </div>
   </footer>
 )
