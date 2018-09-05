@@ -6369,3 +6369,6 @@ a.portfolio-li {
   padding-bottom: 30px;
   color: yellow;
   cursor: pointer; }
+
+.card-container {
+  display: inline-block; }
