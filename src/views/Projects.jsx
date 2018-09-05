@@ -12,7 +12,7 @@ const Projects = () => {
         {projects.map((myProject, index) =>
 
           <Col sm="4">
-            <Card  key={index}>
+            <Card key={index}>
               <CardTitle>{myProject.title}</CardTitle>
               <CardImg
                 top width="100%"
