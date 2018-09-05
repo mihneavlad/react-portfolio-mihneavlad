@@ -26,11 +26,11 @@ const Header = (props) => (
           </Navbar>
         </div>
     </header>
-    <section class="intro-section">
-  		<div class="container text-center">
-  			<div class="row">
-  				<div class="col-xl-10 offset-xl-1">
-  					<h2 class="section-title">I’m a Berlin based <span>software developer</span> with +2 years of experience</h2>
+    <section className="intro-section">
+  		<div className="container text-center">
+  			<div className="row">
+  				<div className="col-xl-10 offset-xl-1">
+  					<h2 className="section-title">I’m a Berlin based <span>software developer</span> with +2 years of experience</h2>
   				</div>
   			</div>
   		</div>

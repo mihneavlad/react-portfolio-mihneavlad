@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Quizzards-Mihnea",
+    "description": "A small quiz app",
+    "imageUrl": "https://via.placeholder.com/800x600",
+    "thumbnailUrl": "https://via.placeholder.com/200x200",
+    "projectUrl": "https://github.com/WebUp-dci-fbw7/quizzards",
+    "tags": ["OOP", "javascript", "bootstrap", "sass", "css", "html"]
+  },
+  {
+    "title": "Student Roster-Mihnea",
+    "description": "A list of students in my class",
+    "imageUrl": "https://via.placeholder.com/800x600",
+    "thumbnailUrl": "https://via.placeholder.com/200x200",
+    "projectUrl": "https://github.com/WebUp-dci-fbw7/student-roster",
+    "tags": ["html", "css", "javascript", "DOM"]
+  },
+  {
+    "title": "Guessing Game",
+    "description": "A small game to guess a number",
+    "imageUrl": "https://via.placeholder.com/800x600",
+    "thumbnailUrl": "https://via.placeholder.com/200x200",
+    "projectUrl": "https://github.com/WebUp-dci-fbw7/guessing-game-itch",
+    "tags": ["html", "bootstrap", "css", "javascript"]
+  },
+  {
+    "title": "React Clock",
+    "description": "A clock component for react",
+    "imageUrl": "https://via.placeholder.com/800x600",
+    "thumbnailUrl": "https://via.placeholder.com/200x200",
+    "projectUrl": "https://github.com/WebUp-dci-fbw7/clock-component",
+    "tags": ["jsx", "react", "javascript"]
+  }
+]
