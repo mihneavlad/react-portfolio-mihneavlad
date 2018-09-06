@@ -1,4 +1,5 @@
 import React, {Component, Fragment} from 'react';
+import { Card } from 'reactstrap';
 import projects from '../projects.json';
 
 
@@ -12,9 +13,11 @@ class SingleProject extends Component {
 
     return(
       <Fragment>
-        <h2>{myProject.title}</h2>
-        <img className="img-fluid" src={myProject.imageUrl} alt={myProject.title}/>
-        <p>{myProject.description}</p>
+        <Card className="container-project d-flex flex-column" body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
+            <h1 className="mx-auto">{myProject.title}</h1>
+            <img className="project-thumbnail img-fluid mx-auto" src={myProject.imageUrl} alt={myProject.title}/>
+            <p className="m-auto">{myProject.description}</p>
+      </Card>
       </Fragment>
     )
   }

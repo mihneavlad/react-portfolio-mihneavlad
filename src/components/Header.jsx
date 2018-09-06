@@ -28,16 +28,16 @@ import {Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink} from 'reactstrap
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                   <Nav className="m-auto" navbar>
-                    <NavItem>
+                    <NavItem className="d-flex justify-content-center">
                       <NavLink className="portfolio-li" exact to="/" activeClassName="active" tag={RRNavLink}>Home</NavLink>
                     </NavItem>
-                    <NavItem>
+                    <NavItem className="d-flex justify-content-center">
                       <NavLink className="portfolio-li" exact to="/about" activeClassName="active" tag={RRNavLink}>About</NavLink>
                     </NavItem>
-                    <NavItem>
+                    <NavItem className="d-flex justify-content-center">
                       <NavLink className="portfolio-li" exact to="/projects" activeClassName="active" tag={RRNavLink}>Projects</NavLink>
                     </NavItem>
-                    <NavItem>
+                    <NavItem className="d-flex justify-content-center">
                       <NavLink className="portfolio-li" exact to="/contact" activeClassName="active" tag={RRNavLink}>Contact</NavLink>
                     </NavItem>
                   </Nav>

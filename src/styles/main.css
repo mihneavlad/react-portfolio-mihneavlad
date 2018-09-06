@@ -6334,6 +6334,20 @@ body {
   margin-bottom: 70px;
   /* Margin bottom by footer height */ }
 
+a.portfolio-li {
+  font-size: 1.5rem;
+  display: inline-block;
+  color: yellow;
+  cursor: pointer;
+  text-align: center; }
+
+.section-title {
+  font-size: 3rem; }
+
+.section-title span {
+  color: #979797;
+  margin-bottom: 0; }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -6349,26 +6363,32 @@ body {
   font-size: 10px;
   margin-bottom: 0; }
 
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
 .text-footer {
   margin-bottom: 0; }
 
-.section-title {
-  font-size: 60px; }
-
-.section-title span {
-  color: #979797;
-  margin-bottom: 0; }
-
-a.portfolio-li {
-  font-size: 24px;
-  display: inline-block;
-  margin-right: 30px;
-  padding-bottom: 30px;
-  color: yellow;
-  cursor: pointer; }
-
 .card-container {
   display: inline-block; }
+
+.project-thumbnail {
+  max-width: 40%; }
+
+.pill-container span {
+  margin: 0; }
+
+/* ===========================
+  Responsive
+==============================*/
+html {
+  font-size: 0.5rem; }
+
+@media (min-width: 576px) {
+  html {
+    font-size: 0.6rem; } }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 0.8rem; } }
+
+@media (min-width: 992px) {
+  html {
+    font-size: 1rem; } }

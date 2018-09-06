@@ -27,8 +27,31 @@ html {
 }
 body {
   margin-bottom: 70px; /* Margin bottom by footer height */
-
 }
+
+// HEADER
+
+a.portfolio-li {
+    font-size: 1.5rem;
+    display: inline-block;
+    color: yellow;
+    cursor: pointer;
+    text-align: center;
+}
+
+// SECTION TITLE
+
+.section-title {
+  font-size: 3rem;
+}
+
+.section-title span {
+  color: #979797;
+  margin-bottom: 0;
+}
+
+// FOOTER
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -47,38 +70,140 @@ body {
   margin-bottom: 0;
 }
 
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-// .container {
-//   width: auto;
-//   max-width: 100%;
-//   padding: 0 15px;
-// }
-
 .text-footer {
   margin-bottom: 0;
 }
 
-.section-title {
-  font-size: 60px;
-}
-
-.section-title span {
-  color: #979797;
-  margin-bottom: 0;
-}
-
-a.portfolio-li {
-    font-size: 24px;
-    display: inline-block;
-    margin-right: 30px;
-    padding-bottom: 30px;
-    color: yellow;
-    cursor: pointer;
-}
 
 .card-container {
   display: inline-block;
 }
+
+
+.project-thumbnail {
+  max-width: 40%;
+}
+
+.pill-container span {
+  margin: 0;
+}
+
+
+/* ===========================
+  Responsive
+==============================*/
+
+html {
+  font-size: 0.5rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 0.6rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 0.8rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+// Example
+// @media only screen and (max-width: 1448px) {
+//   .home-2.container {
+//     width: auto;
+//   }
+// }
+//
+// /* Medium screen : 992px. */
+// @media only screen and (min-width: 992px) and (max-width: 1199px) {
+//   .portfolio-item {
+//     height: 450px;
+//   }
+// }
+//
+// /* Tablet :768px. */
+// @media only screen and (min-width: 768px) and (max-width: 991px) {
+//   .body-pad {
+//     padding: 0 30px;
+//   }
+//   .portfolio-item {
+//     height: 350px;
+//   }
+// }
+//
+// /* Large Mobile :480px. */
+// @media only screen and (max-width: 767px) {
+//   .body-pad {
+//     padding: 0 15px;
+//   }
+//   .portfolio-li {
+//       font-size: 16px;
+//       display: inline-block;
+//       color: yellow;
+//       cursor: pointer;
+//       text-align: center;
+//   }
+// }
+// //   .main-menu {
+// //     position: absolute;
+// //     background: #efefef;
+// //     width: 100%;
+// //     z-index: 999;
+// //     left: 0;
+// //     top: 30px;
+// //     padding-top: 15px;
+// //     display: none;
+// //   }
+// //   .main-menu ul li a {
+// //     padding: 10px 15px;
+// //     border-bottom: 1px solid #ddd;
+// //     display: block;
+// //   }
+// //   .main-menu ul li {
+// //     display: block;
+// //   }
+// //   .main-menu ul li:last-child a {
+// //     border-bottom: none;
+// //   }
+// //   .home-2 {
+// //     text-align: left;
+// //   }
+// //   .home-2 .main-menu {
+// //     top: 99px;
+// //   }
+// //   .nav-switch {
+// //     position: absolute;
+// //     right: 25px;
+// //     font-size: 30px;
+// //     color: #333;
+// //     top: 35px;
+// //     display: block;
+// //   }
+// //   .header-btn {
+// //     display: none;
+// //   }
+// //   .section-title {
+// //     font-size: 45px;
+// //   }
+// //   .portfolio-filter {
+// //     text-align: center;
+// //   }
+// // }
+//
+// /* small Mobile :320px. */
+// @media only screen and (max-width: 479px) {
+//   .section-title {
+//     font-size: 30px;
+//   }
+// }
