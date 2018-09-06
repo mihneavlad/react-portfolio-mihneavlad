@@ -1,7 +1,8 @@
 import React from 'react';
+import IntroSection from '../components/IntroSection';
 
 const Home = (props) => (
-  <p>Isaac</p>
+  <IntroSection />
 )
 
 export default Home;

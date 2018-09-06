@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 // import {Link} from "react-router-dom";
-import { CardDeck, Col, Card, CardImg, CardTitle, CardText} from 'reactstrap';
+import { Button, CardDeck, Col, Card, CardImg, CardTitle, CardText} from 'reactstrap';
 
 import projects from "../projects.json";
 
@@ -12,7 +12,7 @@ const Projects = () => {
         {projects.map((myProject, index) =>
 
           <Col sm="4">
-            <Card key={index}>
+            <Card key={index} body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
               <CardTitle>{myProject.title}</CardTitle>
               <CardImg
                 top width="100%"
@@ -20,8 +20,10 @@ const Projects = () => {
                 alt="Card image cap"
                 body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}
               />
+              <CardText>{myProject.description}</CardText>
+              <Button color="secondary">Check my project!</Button>
             </Card>
-            <CardText>{myProject.description}</CardText>
+
           </Col>
         )}
   </CardDeck>
