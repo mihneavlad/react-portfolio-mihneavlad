@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import {Link} from "react-router-dom";
-import { Badge, CardDeck, Col, Card, CardImg, CardTitle, CardText, Row} from 'reactstrap';
+import { Badge, CardDeck, Col, Card, CardImg, CardTitle, CardText} from 'reactstrap';
 
 import projects from "../projects.json";
 
@@ -10,7 +10,6 @@ const Projects = () => {
     <Fragment>
       <CardDeck>
         {projects.map((myProject, index) =>
-          <Row>
             <Col key={index} sm="4">
               <Card className="mt-4" body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                 <CardTitle>{myProject.title}</CardTitle>
@@ -30,7 +29,7 @@ const Projects = () => {
                 ))}
               </div>
             </Col>
-          </Row>
+
             )}
       </CardDeck>
     </Fragment>

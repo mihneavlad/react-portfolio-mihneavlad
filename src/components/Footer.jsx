@@ -10,7 +10,7 @@ const Footer = (props) => (
     <div className="container">
       <div className="text-center text-footer">
         <div className="fa-container">
-          <span className="fa-icons fa-2x ml-2 mr-2"><FontAwesomeIcon icon={faFacebookSquare} /></span>
+          <span className="fa-icons fa-2x mr-2"><FontAwesomeIcon icon={faFacebookSquare} /></span>
           <span className="fa-icons fa-2x ml-2 mr-2"><FontAwesomeIcon icon={faTwitterSquare} /></span>
           <span className="fa-icons fa-2x ml-2 mr-2"><FontAwesomeIcon icon={faInstagram} /></span>
           <span className="fa-icons fa-2x ml-2 mr-2"><FontAwesomeIcon icon={faGithubSquare} /></span>
