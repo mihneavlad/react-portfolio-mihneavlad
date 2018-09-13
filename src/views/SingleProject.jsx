@@ -27,20 +27,20 @@ class SingleProject extends Component {
                   <div className="text-center text-footer">
                     <div className="fa-container">
                       <Link
-                        className="fas fa-angle-double-left fa-3x mr-6"
+                        className="browsing fas fa-angle-double-left fa-3x mr-6"
                         to={`/projects/0`}>
                         <FontAwesomeIcon icon={faAngleDoubleLeft} />
                       </Link>
 
                       {project_index > 0  ?
                       <Link
-                        className="fas fa-angle-left fa-3x mr-6"
+                        className="browsing fas fa-angle-left fa-3x mr-6"
                         to={`/projects/${project_index - 1}`}>
                         <FontAwesomeIcon icon={faAngleLeft} />
                       </Link>
                       :
                       <Link
-                        className="fas fa-angle-double-left fa-3x mr-6"
+                        className="browsing fas fa-angle-double-left fa-3x mr-6"
                         to={`/projects/0`}>
                         <FontAwesomeIcon icon={faAngleLeft} />
                       </Link>
@@ -48,13 +48,13 @@ class SingleProject extends Component {
 
                       {project_index < parseInt(projects.length) - 1  ?
                       <Link
-                        className="fas fa-angle-left fa-3x mr-6"
+                        className="browsing fas fa-angle-left fa-3x mr-6"
                         to={`/projects/${project_index + 1}`}>
                         <FontAwesomeIcon icon={faAngleRight} />
                       </Link>
                       :
                       <Link
-                        className="fas fa-angle-double-left fa-3x mr-6"
+                        className="browsing fas fa-angle-double-left fa-3x mr-6"
                         to={`/projects/0`}>
                         <FontAwesomeIcon icon={faAngleRight} />
                       </Link>
@@ -62,7 +62,7 @@ class SingleProject extends Component {
 
 
                       <Link
-                        className="fas fa-angle-right fa-3x mr-6"
+                        className="browsing fas fa-angle-right fa-3x ml-6"
                         to={`/projects/${projects.length - 1}`}>
                         <FontAwesomeIcon icon={faAngleDoubleRight} />
                       </Link>

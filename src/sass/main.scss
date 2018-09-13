@@ -39,6 +39,36 @@ a.portfolio-li {
     text-align: center;
 }
 
+img.profile {
+  max-width: 100%;
+  height: auto;
+}
+
+.pic-frame {
+  position: relative;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  display: inline-block;
+}
+
+.pic-frame:after {
+  position: absolute;
+  content: "";
+  width: calc(100% - 1em);
+  height: calc(100% - 1em);
+  bottom: 0;
+  left: 0;
+  border: 2px solid #000;
+  z-index: 1;
+}
+
+// browsing
+
+a.browsing {
+  margin: 1rem;
+  color: white;
+}
+
 // SECTION TITLE
 
 .section-title {
@@ -114,96 +144,3 @@ html {
     font-size: 1rem;
   }
 }
-
-
-
-
-// Example
-// @media only screen and (max-width: 1448px) {
-//   .home-2.container {
-//     width: auto;
-//   }
-// }
-//
-// /* Medium screen : 992px. */
-// @media only screen and (min-width: 992px) and (max-width: 1199px) {
-//   .portfolio-item {
-//     height: 450px;
-//   }
-// }
-//
-// /* Tablet :768px. */
-// @media only screen and (min-width: 768px) and (max-width: 991px) {
-//   .body-pad {
-//     padding: 0 30px;
-//   }
-//   .portfolio-item {
-//     height: 350px;
-//   }
-// }
-//
-// /* Large Mobile :480px. */
-// @media only screen and (max-width: 767px) {
-//   .body-pad {
-//     padding: 0 15px;
-//   }
-//   .portfolio-li {
-//       font-size: 16px;
-//       display: inline-block;
-//       color: yellow;
-//       cursor: pointer;
-//       text-align: center;
-//   }
-// }
-// //   .main-menu {
-// //     position: absolute;
-// //     background: #efefef;
-// //     width: 100%;
-// //     z-index: 999;
-// //     left: 0;
-// //     top: 30px;
-// //     padding-top: 15px;
-// //     display: none;
-// //   }
-// //   .main-menu ul li a {
-// //     padding: 10px 15px;
-// //     border-bottom: 1px solid #ddd;
-// //     display: block;
-// //   }
-// //   .main-menu ul li {
-// //     display: block;
-// //   }
-// //   .main-menu ul li:last-child a {
-// //     border-bottom: none;
-// //   }
-// //   .home-2 {
-// //     text-align: left;
-// //   }
-// //   .home-2 .main-menu {
-// //     top: 99px;
-// //   }
-// //   .nav-switch {
-// //     position: absolute;
-// //     right: 25px;
-// //     font-size: 30px;
-// //     color: #333;
-// //     top: 35px;
-// //     display: block;
-// //   }
-// //   .header-btn {
-// //     display: none;
-// //   }
-// //   .section-title {
-// //     font-size: 45px;
-// //   }
-// //   .portfolio-filter {
-// //     text-align: center;
-// //   }
-// // }
-//
-// /* small Mobile :320px. */
-// @media only screen and (max-width: 479px) {
-//   .section-title {
-//     font-size: 30px;
-//   }
-// }
