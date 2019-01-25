@@ -1,7 +1,7 @@
 # A portfolio website built with React.
 
 A responsive portfolio website created with [Create React App](https://github.com/facebook/create-react-app).
-Used react, bootstrap, react-router, reactstrap
+Used react, bootstrap, react-router, reactstrap, sass
 
 ## App Info
 
